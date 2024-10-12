@@ -1,0 +1,110 @@
+.date-range-picker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .input-box {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 250px;
+    padding: 8px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .calendar-controls {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    color: #007bff;
+  }
+  
+  .calendar-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .calendar {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: white;
+    margin-right: 10px;
+  }
+  
+  .calendar-header {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .calendar-body {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
+  .calendar-day {
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 3px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .calendar-day:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .selected {
+    background-color: lightblue;
+  }
+  
+  .weekend {
+    color: #ccc;
+  }
+  
+  .empty-day {
+    visibility: hidden;
+  }
+  
+  .predefined-ranges {
+    margin-top: 20px;
+  }
+  
+  .predefined-ranges button {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .predefined-ranges button:hover {
+    background-color: #0056b3;
+  }
+  
